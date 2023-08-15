@@ -1,6 +1,14 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react';
+import axios from "axios";
 
 export default function Home() {
+    const [user,setUser]=useState([]);
+
+    useEffect(()=>{
+       console.log("I love dogs"); 
+    })
+
+   
   return (
     <div classNam e='container'>
         <div className='py-4'>
